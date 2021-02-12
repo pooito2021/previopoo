@@ -5,7 +5,8 @@ public class MiApp {
 	//EL método run gestiona la ejecución del 
 	// programa, invocando el mínimo de sentencias.
 	static void run() {
-		System.out.println("Hola Mundo");
+		for(int i=0;i<10;i++)
+		   System.out.println("Hola Mundo");
 	}
 	// El método principal debe quedar reducido al
 	// menor número de líneas
